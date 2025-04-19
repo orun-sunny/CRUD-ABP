@@ -1,0 +1,76 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {}
+    }
+  },
+  "packages": {
+    "Acme.Bookshop.Application": {
+      "path": "src/Acme.Bookshop.Application/Acme.Bookshop.Application.abppkg",
+      "folder": "src"
+    },
+    "Acme.Bookshop.Domain.Shared": {
+      "path": "src/Acme.Bookshop.Domain.Shared/Acme.Bookshop.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Acme.Bookshop.Application.Contracts": {
+      "path": "src/Acme.Bookshop.Application.Contracts/Acme.Bookshop.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Acme.Bookshop.HttpApi": {
+      "path": "src/Acme.Bookshop.HttpApi/Acme.Bookshop.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Acme.Bookshop.HttpApi.Client": {
+      "path": "src/Acme.Bookshop.HttpApi.Client/Acme.Bookshop.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Acme.Bookshop.EntityFrameworkCore": {
+      "path": "src/Acme.Bookshop.EntityFrameworkCore/Acme.Bookshop.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Acme.Bookshop.DbMigrator": {
+      "path": "src/Acme.Bookshop.DbMigrator/Acme.Bookshop.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Acme.Bookshop.HttpApi.Host": {
+      "path": "src/Acme.Bookshop.HttpApi.Host/Acme.Bookshop.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Acme.Bookshop.Domain": {
+      "path": "src/Acme.Bookshop.Domain/Acme.Bookshop.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
